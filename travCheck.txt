@@ -1,0 +1,15 @@
+Here's a note you can use to document the tools and resources you utilized for your project:
+
+---
+
+## Project Acknowledgments
+
+This project was made possible through the use of various tools and resources that helped enhance its functionality and design:
+
+1. **ChatGPT**: Used for calculating travel budgets and modifying functionalities to improve user experience.
+2. **Galileo AI**: Utilized for creating the user interface design, ensuring a modern and user-friendly experience.
+3. **Bootstrap Library**: Incorporated to streamline the development process and enhance responsiveness across devices.
+4. **Open Source Code**: Leveraged resources from Google to access open-source code that aided in implementing specific features effectively.
+
+---
+

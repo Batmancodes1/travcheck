@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>TravCheck</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="flex flex-col gap-2 bg-white p-4 pb-2">
+        <div class="flex items-center h-12 justify-end">
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-[#111518] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-[#111518]" data-icon="Download" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H72a8,8,0,0,1,0,16H32v64H224V136H184a8,8,0,0,1,0-16h40A16,16,0,0,1,240,136Zm-117.66-2.34a8,8,0,0,0,11.32,0l48-48a8,8,0,0,0-11.32-11.32L136,108.69V24a8,8,0,0,0-16,0v84.69L85.66,74.34A8,8,0,0,0,74.34,85.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <p class="text-[#111518] tracking-light text-[28px] font-bold leading-tight">Travel with budget</p>
+      </div>
+      <div class="@container">
+        <div class="@[480px]:p-4">
+          <div
+            class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+            style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/sdxl10/c34599e9-28ef-4a3f-a4b6-b8e24a78ef41.png");'
+          >
+            <div class="flex flex-col gap-2 text-center">
+              <h1
+                class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+              >
+                Plan your next trip with us
+              </h1>
+              <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                Get started with a budget and track your expenses
+              </h2>
+            </div>
+            <label class="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
+              <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div
+                  class="text-[#617b89] flex border border-[#dbe2e6] bg-white items-center justify-center pl-[15px] rounded-l-xl border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Enter your total budget"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dbe2e6] bg-white focus:border-[#dbe2e6] h-full placeholder:text-[#617b89] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                  value=""
+                />
+                <div class="flex items-center justify-center rounded-r-xl border-l-0 border border-[#dbe2e6] bg-white pr-[7px]">
+                  <a href="./expense-tracker-js-main/index.html">
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#139cec] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Start Budgeting</span>
+                  </button></a>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col gap-10 px-4 py-10 @container">
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-0">
+          <div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] bg-white p-4 flex-col">
+            <div class="text-[#111518]" data-icon="Money" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,88a40,40,0,1,0,40,40A40,40,0,0,0,128,88Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,152ZM240,56H16a8,8,0,0,0-8,8V192a8,8,0,0,0,8,8H240a8,8,0,0,0,8-8V64A8,8,0,0,0,240,56ZM193.65,184H62.35A56.78,56.78,0,0,0,24,145.65v-35.3A56.78,56.78,0,0,0,62.35,72h131.3A56.78,56.78,0,0,0,232,110.35v35.3A56.78,56.78,0,0,0,193.65,184ZM232,93.37A40.81,40.81,0,0,1,210.63,72H232ZM45.37,72A40.81,40.81,0,0,1,24,93.37V72ZM24,162.63A40.81,40.81,0,0,1,45.37,184H24ZM210.63,184A40.81,40.81,0,0,1,232,162.63V184Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="flex flex-col gap-1">
+              <h2 class="text-[#111518] text-base font-bold leading-tight">Budget tracking</h2>
+              <p class="text-[#617b89] text-sm font-normal leading-normal">Set a budget, add expenses, and see how much you have left to spend.</p>
+            </div>
+          </div>
+          <div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] bg-white p-4 flex-col">
+            <div class="text-[#111518]" data-icon="Receipt" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M72,104a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H80A8,8,0,0,1,72,104Zm8,40h96a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16ZM232,56V208a8,8,0,0,1-11.58,7.15L192,200.94l-28.42,14.21a8,8,0,0,1-7.16,0L128,200.94,99.58,215.15a8,8,0,0,1-7.16,0L64,200.94,35.58,215.15A8,8,0,0,1,24,208V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V195.06l20.42-10.22a8,8,0,0,1,7.16,0L96,199.06l28.42-14.22a8,8,0,0,1,7.16,0L160,199.06l28.42-14.22a8,8,0,0,1,7.16,0L216,195.06Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="flex flex-col gap-1">
+              <h2 class="text-[#111518] text-base font-bold leading-tight">Expense management</h2>
+              <p class="text-[#617b89] text-sm font-normal leading-normal">Add expenses on the go, split costs with friends, and keep your budget up to date.</p>
+            </div>
+          </div>
+          <div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] bg-white p-4 flex-col">
+            <div class="text-[#111518]" data-icon="ChartBar" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,200h-8V40a8,8,0,0,0-8-8H152a8,8,0,0,0-8,8V80H96a8,8,0,0,0-8,8v40H48a8,8,0,0,0-8,8v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM160,48h40V200H160ZM104,96h40V200H104ZM56,144H88v56H56Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="flex flex-col gap-1">
+              <h2 class="text-[#111518] text-base font-bold leading-tight">Report generation</h2>
+              <p class="text-[#617b89] text-sm font-normal leading-normal">Generate reports for any trip, download them as a PDF, and share them with others.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex px-4 py-3">
+        <button
+          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 flex-1 bg-[#139cec] text-white text-base font-bold leading-normal tracking-[0.015em]"
+        >
+          <a href="./index.html"><span class="truncate">GO TO MAIN PAGE</span></a>
+        </button>
+      </div>
+      <div class="h-5 bg-white"></div>
+    </div>
+  </body>
+</html>
